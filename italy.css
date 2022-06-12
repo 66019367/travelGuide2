@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;300&family=Kdam+Thmor+Pro&family=Rokkitt:wght@300&display=swap');
+
+.btn li , .btn a ,.btn
+{
+	list-style-type: none;
+	text-decoration: none;
+	display: inline-block;
+	color: #fff;
+	padding: 5px;
+	font-size: 20px;
+}
+.btn:hover
+{
+	background-color:#869D98;
+	box-shadow:1px 2px #869D98;
+	transition:0.3s all;
+}
+
+header
+{
+	display: flex;
+	justify-content: space-between;
+	background-color:#1C2833 ;
+	margin: -8px;
+	font-family:'Kdam Thmor Pro';
+}
+
+#logo
+{
+	padding-left: 10px;
+	padding-top: 3px;
+	color: #fff;
+	
+}
+
+body{
+	background:url(slider-b.jpg) ;
+	background-size:cover;
+}
+
+#grandtitle
+{
+	font-size: 40px;
+	padding-left: 50px;
+	padding-top: 100px;
+	width: 50%;
+	font-family:'Advent Pro';
+}
+
+#links
+{
+	list-style-type: none;
+	margin: 50px;
+}
+
+#links a
+{
+	text-decoration: none;
+	padding-left: 50px;
+	font-size: 25px;
+	font-family:'Rokkitt';
+	color:#000;
+	font-weight: bold;
+
+}
+
+#link,#link2
+{
+	border:1px #D1F2EB solid ;
+	background-color:#D1F2EB ;
+	border-radius:10px;
+	padding: 50px;
+	padding-top: 20px;	
+	padding-bottom: 20px;
+}
